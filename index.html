@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/mini.main.css">
+</head>
+<body>
+
+  <div class="bg-yellow">
+
+    <div class="container">
+
+      <header>
+
+        <p class="text">Account settings</p>
+        <a href="#" class="link-close"><span class="one"></span><span class="two"></span></a>
+
+      </header>
+    </div>
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <div class="bg-white">
+          <div class="big-container">
+
+            <img src="./img/avatar.jpg" alt="Avatar" class="avatar" width="55" height="55">
+
+            <label for="id_user_name">username</label>
+            <input type="text" name="User-name" id="id_user_name" placeholder="Enter your username" required>
+            <hr>
+
+            <div class="names">
+
+              <div class="names-left">
+                <label for="id_first_name">first name</label>
+                <input type="text" name="First-name" id="id_first_name" placeholder="Enter your first name" required>
+              </div>
+
+              <div class="names-right">
+                <label for="id_last_name">last name</label>
+                <input type="text" name="Last-name" id="id_last_name" placeholder="Enter your last name" required>
+              </div>
+
+            </div>
+
+            <hr>
+            <label for="id_email">email</label>
+            <input type="email" name="Email-name" id="id_email" placeholder="Enter your email" required>
+            <hr>
+            <label for="id_bio">bio</label>
+            <textarea name="Bio" id="id_bio"></textarea> 
+            
+          </div>
+
+        </div>
+
+        <div class="container container-btn">
+          <button class="btn" type="button">Cancel</button>
+          <button class="btn" type="submit">Save</button>
+        </div>
+
+      </form>
+
+  </div>
+  
+</body>
+</html>
